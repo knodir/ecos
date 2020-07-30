@@ -1,15 +1,25 @@
-This repository contains Embedded Configurable Operating System (eCos)
-related source code from Nodir Kodirov's masters thesis project.
+# General
+
+This repository contains [Embedded Configurable Operating System](https://en.wikipedia.org/wiki/ECos)(eCos)
+related source code from [my](https://knodir.github.io/) masters thesis project.
 It mainly includes files that implement Earliest Deadline First (EDF) scheduler
 and Non-Blocking Buffer (NBB) thread communication mechanism in eCos kernel.
 
 The folder structure is reflective of the structure described in the thesis.
 More specifically, we include files that are described in 
-<Figure 4-9> Modified and added EDF specific files and
-<Figure 4-14> NBB development folder structure.
-The hope is that you should be able to reproduce the thesis work with these files.
+*Figure 4-9: Modified and added EDF specific files* and
+*Figure 4-14: NBB development folder structure* of the thesis work.
+The hope is that you should be able to reproduce the work with these files.
 If this does not happen, feel free to email me at nodir.qodirov@gmail and
 I'll do my best to help you out.
+
+# Documentation
+
+The main reference should be the [thesis](./docs/thesis.pdf) work.
+You can also refer to the higher level [presenation](./docs/ecos-edf-implementation.ppt)
+of the source code that I used to describe my implementation in our lab seminars.
+Lastly, there is another [slide deck](./docs/ecos-seminar-2011.ppt) that I used to present this work
+after my graduation.
 
 # Citations
 
@@ -22,7 +32,7 @@ Bibtex entry for thesis work:
   author={Kodirov, Nodir},
   year={2010},
   school={Konkuk University},
-  note={Online at knodir.github.io/files/papers/graduate-thesis.pdf}
+  note={Online at https://github.com/knodir/ecos/docs/thesis.pdf}
 }
 ```
 
